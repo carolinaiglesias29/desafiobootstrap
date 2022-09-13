@@ -1,0 +1,123 @@
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+.grid{
+    background-color:white;
+    height: 325px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 80px;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+
+}
+
+.grid__item{
+    border: 10px solid grey;
+    padding: 10px;
+}
+
+    
+
+.gridv2{
+    background-color:white; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 30px;
+    padding: 20px;
+    row-gap: 20px;
+  
+  
+
+} */
+
+.home{
+    color:  white;
+    padding: 50px;
+    
+}   
+
+.tienda{
+    color:white;
+    padding: 50px;
+
+}
+
+.navegador{
+    background-image: linear-gradient(to bottom, darkgrey, black);
+    list-style-type: none;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    height: 50px;
+}
+
+.secciones {
+    display: flex;
+    justify-content:center;
+    padding: 12px;
+    list-style-type: none;
+    font-weight: bold;
+}
+    
+.slogan{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: black;
+    padding: 5rem;
+}
+
+.derechos{
+   display: flex;
+   justify-content: center;
+    font-weight: bolder;
+    color: black
+}
+
+.redes{
+    display: flex;
+    justify-content: center;  
+    list-style-type: none;
+    justify-content: space-between 30px; 
+    justify-content:space-around;
+    margin: 70px;
+    
+}
+
+.img-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+
+}
+
+.img{
+    height: 25rem;
+}
+
+.anim{
+    transition: all 0.5s ease;
+}
+
+.anim:hover{
+    transform: scale(1.05);
+    color: yellowgreen;
+}
